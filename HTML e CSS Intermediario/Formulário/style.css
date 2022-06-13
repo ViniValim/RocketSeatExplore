@@ -151,4 +151,9 @@ fieldset legend{
 }
 .input-wrapper select{
     appearance: none;
+    -webkit-appearance: none;
+
+    background-image: 0;
+    background-repeat: no-repeat;
+    background-position: right 24px top center;
 }

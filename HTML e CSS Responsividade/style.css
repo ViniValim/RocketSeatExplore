@@ -1,9 +1,84 @@
-/* Font = font-family: 'Epilogue', sans-serif; */
-
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+ul{
+    list-style: none;
+}
+main{
+    max-width: 33rem;
+    margin: 0 auto;
+}
 
 body{
     background: #ECE9FD;
 
-    padding: 60px 23px 66px;
+    padding: 6.0rem 2.3rem 6.6rem;
+    font-size: 1.6rem;
+    font-family: 'Epilogue', sans-serif;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 4rem;
+    color: #090039;
+    margin-bottom: 1.5rem;
+}
+
+main p:first-child{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #7158EF;
+    line-height: 3.2rem;
+    margin-bottom: 1.7rem;
+}
+
+h1 + p {
+    line-height: 3.2rem;
+    color: rgba(10, 0, 57, 0.64);
+
+    margin-bottom: 3.2rem;
+}
+
+a{
+    color: #090039;
+
+    text-decoration: none;
+}
+
+a:hover{
+  color: #331fa4;
+  font-weight: bolder;
+
+}
+
+ul{
+  margin-bottom: 7.2rem;
+}
+ul li{
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    color: #090039;
+
+    max-width: 25.7rem;
+
+    display: flex;
+    gap: 3.8rem
+}
+
+ul li span{
+    font-weight: 800;
+    font-size: 7.2rem;
+    line-height: 8.0rem;
+
+    letter-spacing: 2px;
+
+
+    color: #090039;
+
 }

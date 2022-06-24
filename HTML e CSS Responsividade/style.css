@@ -10,7 +10,7 @@ ul{
     list-style: none;
 }
 main{
-    max-width: 33rem;
+    max-width: 33.0rem;
     margin: 0 auto;
 }
 
@@ -27,6 +27,8 @@ h1{
     font-size: 4rem;
     color: #090039;
     margin-bottom: 1.5rem;
+
+    line-height: 4.8rem;
 }
 
 main p:first-child{
@@ -57,7 +59,7 @@ a:hover{
 }
 
 ul{
-  margin-bottom: 7.2rem;
+  margin-top: 7.2rem;
 }
 ul li{
     font-weight: 700;
@@ -80,5 +82,34 @@ ul li span{
 
 
     color: #090039;
+
+}
+
+@media (min-width: 700px){
+
+    body{
+        padding-top: 8rem;
+    }
+
+    main{
+        display: flex;
+        gap: 10rem;
+        max-width: 1020px;
+    }
+
+    main > div{
+        max-width: 484px;
+    }
+
+    ul li{
+        gap: 5.3rem;
+        max-width: 450px;
+        align-items: center;
+
+    }
+
+    ul li + li{
+        margin-top: 3.2rem;
+    }
 
 }
